@@ -5,4 +5,5 @@ The data for preparation should be placed in a folder called "Rawdata" in the fo
 
 The programe will generate a Similarity.xlsx file that shows the similarity between different curves.
 
+Demo picture of the output:
 ![image](https://github.com/zhongliang2021/Use_DTW_to_prepare_curves/blob/main/Demo1.png)
