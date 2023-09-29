@@ -14,7 +14,7 @@ nameList = os.listdir(filePath)
 
 k=0
 for i in nameList:
-    #使用pandas中的read_excel函数读取文件 我这里只读取一行数据 nrows=n的含义为读取第n行数据(注意不是读取前n数据)
+    #使用pandas中的read_excel函数读取文件
     temp = pd.read_excel(filePath + "//" + i, index_col=0)#, index_col=0(有时间就加这个)
     print("****************************************************")
     # print(temp)
